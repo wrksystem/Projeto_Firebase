@@ -44,10 +44,10 @@
 
     <androidx.appcompat.widget.AppCompatButton
         style="@style/Buttom"
+        android:text="Login"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/edit_senha"/>
-
-    //tela de login com erro de sobreposição do botim login
+        app:layout_constraintTop_toBottomOf="@id/edit_senha"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
